@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include creativeminds *.css
+recursive-include creativeminds *.csv
+recursive-include creativeminds *.html
+recursive-include creativeminds *.ico
+recursive-include creativeminds *.js
+recursive-include creativeminds *.json
+recursive-include creativeminds *.md
+recursive-include creativeminds *.png
+recursive-include creativeminds *.py
+recursive-include creativeminds *.svg
+recursive-include creativeminds *.txt
+recursive-exclude creativeminds *.pyc
